@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "nl.joozd"
-version = "1.0-SNAPSHOT"
+version = "1.0.1"
 
 repositories {
     google()
@@ -20,8 +20,6 @@ repositories {
 
 compose.desktop {
     application {
-        javaHome = "C:\\Users\\joozd\\.gradle\\jdks\\eclipse_adoptium-17-amd64-windows\\jdk-17.0.8+7"
-        // or hard-code: "C:/Program Files/Java/jdk-17"
         mainClass = "nl.joozd.MainKt"
 
         nativeDistributions {
